@@ -1,6 +1,17 @@
-var assert = require('assert');
+var test = require('prova');
 var forceArray = require('./');
 
-assert.deepEqual(forceArray(), []);
-assert.deepEqual(forceArray(1), [1]);
-assert.deepEqual(forceArray([1]), [1]);
+test('empty', function(t) {
+  t.plan(1);
+  t.deepEqual(forceArray(), []);
+});
+
+test('to array', function(t) {
+  t.plan(1);
+  t.deepEqual(forceArray(1), [1]);
+});
+
+test('keep array', function(t) {
+  t.plan(1);
+  t.deepEqual(forceArray([1]), [1]);
+});
