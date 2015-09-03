@@ -1,0 +1,13 @@
+{
+  "name": "force-array",
+  "version": "1.0.0",
+  "main": "force-array.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Sérgio Ramos <mail@sergioramos.me>",
+  "license": "MIT",
+  "dependencies": {
+    "is-array": "^1.0.1"
+  }
+}
