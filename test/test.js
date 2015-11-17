@@ -20,17 +20,17 @@ lab.suite('force-array', function() {
   });
 
   lab.test('concat array', function(done) {
-    assert.deepEqual(forceArray.concat([1], [2, 3]), [1, 2, 3]);
+    assert.deepEqual(forceArray([1], [2, 3]), [1, 2, 3]);
     done();
   });
 
   lab.test('concat array and number', function(done) {
-    assert.deepEqual(forceArray.concat([1], 2), [1, 2]);
+    assert.deepEqual(forceArray([1], 2), [1, 2]);
     done();
   });
 
   lab.test('concat numbers', function(done) {
-    assert.deepEqual(forceArray.concat(1, 2), [1, 2]);
+    assert.deepEqual(forceArray(1, 2), [1, 2]);
     done();
   });
 });

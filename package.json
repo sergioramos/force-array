@@ -1,6 +1,6 @@
 {
   "name": "force-array",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "src/force-array.js",
   "scripts": {
     "test": "NODE_ENV=debug istanbul cover -- lab -l test/*.js"

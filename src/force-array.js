@@ -16,5 +16,4 @@ var forceArray = function() {
   return firstItem.concat(forceArray.apply(null, arguments));
 };
 
-module.exports = forceItem;
-module.exports.concat = forceArray;
+module.exports = forceArray;
