@@ -17,3 +17,4 @@ var forceArray = function() {
 };
 
 module.exports = forceArray;
+module.exports.item = forceItem;
