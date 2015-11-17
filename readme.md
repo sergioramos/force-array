@@ -1,6 +1,6 @@
 # force-array
 
-![](https://img.shields.io/travis/ramitos/force-array.svg) ![](https://img.shields.io/coveralls/ramitos/force-array.svg) ![](https://img.shields.io/npm/v/force-array.svg) ![](https://img.shields.io/david/ramitos/force-array.svg) ![](https://img.shields.io/codeclimate/github/ramitos/force-array.svg) ![](https://img.shields.io/npm/l/force-array.svg)
+[![](https://img.shields.io/travis/ramitos/force-array.svg)](https://travis-ci.org/ramitos/force-array) [![](https://img.shields.io/codeclimate/coverage/github/ramitos/force-array.svg)](https://codeclimate.com/github/ramitos/force-array/coverage) [![](https://img.shields.io/npm/v/force-array.svg)](https://www.npmjs.com/package/force-array) [![](https://img.shields.io/david/ramitos/force-array.svg)](https://david-dm.org/ramitos/force-array) [![](https://img.shields.io/codeclimate/github/ramitos/force-array.svg)](https://codeclimate.com/github/ramitos/force-array) [![](https://img.shields.io/npm/l/force-array.svg)](https://www.npmjs.com/package/force-array)
 
 
 ```js
