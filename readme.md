@@ -10,6 +10,9 @@ var forceArray = require('./');
 assert.deepEqual(forceArray(), []);
 assert.deepEqual(forceArray(1), [1]);
 assert.deepEqual(forceArray([1]), [1]);
+assert.deepEqual(forceArray.concat([1], [2, 3]), [1, 2, 3]);
+assert.deepEqual(forceArray.concat([1], 2), [1, 2]);
+assert.deepEqual(forceArray.concat(1, 2), [1, 2]);
 ```
 
 ## install 

@@ -119,3 +119,8 @@ tmtags
 Session.vim
 .netrwhist
 *~
+
+.DS_Store
+node_modules
+coverage
+.nyc_output
